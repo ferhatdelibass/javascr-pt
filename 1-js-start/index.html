@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">HTML içeriği değiştirebilir.</p>
+    <button type="button" 
+    onclick="document.getElementById('demo')
+    .innerHTML = 'Hello Javascript'">Onclick</button>
+
+    <p>html özellikleri değiştirilebilir</p>
+    <button onclick=
+    "document.getElementById('myImage').src=download.jpeg">
+    foto1</button>
+    <img src="download" id="myImage" style="width: 100px;
+    height: 70px;">
+    <button onclick=
+    "document.getElementById('myImage').src=download.jpeg">
+    foto2</button>
+
+    <p id="stil">HTML stil özelliklerini değiştirir</p>
+    <button type="button" 
+    onclick="document.getElementById ('stil')
+    .style.fontSize='35px'">click me</button>
+    <br><br>
+
+    <button type="button" 
+    onclick="document.getElementById ('element')
+    .style.display='block'">göster</button>
+    <p id="element">HTML elemnti gizleyebilir</p>
+    <button type="button" 
+    onclick="document.getElementById ('element')
+    .style.display='none'">gizle</button>
+</body>
+</html>
