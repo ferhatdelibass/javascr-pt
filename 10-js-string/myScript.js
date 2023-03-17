@@ -67,9 +67,107 @@
 // let text3 = text1.concat(" ", text2," ",text2)
 // console.log(text3)
 
-let text1 = "    Hello World !           ";
-console.log(text1)
-let text2 = text1.trimStart();
-console.log(text2)
-let text3 = text1.trimEnd();
-console.log(text3)
+// let text1 = "    Hello World !           ";
+// console.log(text1)
+// let text2 = text1.trimStart();
+// console.log(text2)
+// let text3 = text1.trimEnd();
+// console.log(text3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let text = "Please locate where 'locate' occurs!"
+// let indexText = text.indexOf("Please")
+// console.log(indexText)
+// let indexText2 = text.lastIndexOf("loxcate")
+// console.log(indexText2)
+// let indexText3 = text.indexOf("locate",15)
+// console.log(indexText3)
+// let indexText4 = text.lastIndexOf("locate",15)
+// console.log(indexText4)
+
+// let text = "Please Locate where 'locate' occurs!"
+// let searchText = text.search("locate")
+// console.log(searchText)
+// let searchText2 = text.search(/locate/i)
+// console.log(searchText2)
+
+// let text = "The rain in SPAIN stays mainly in the plain"
+// let textMatch = text.match(/ain/g)
+// console.log(textMatch)
+// let textMatch2 = text.match(/ain/gi)
+// console.log(textMatch2)
+
+// let text = "Hello world, welcome to the universe."
+// let textIncludes = text.includes("world")
+// console.log(textIncludes)
+
+
+let text = "Hello world, welcome to the universe."
+let textStartsWith = text.startsWith("Hello")
+console.log(textStartsWith)
+let textStartsWith2 = text.startsWith("Hello",12)
+console.log(textStartsWith2)
+let textEndsWith = text.endsWith("universe.")
+console.log(textEndsWith)
+let textEndsWith2 = text.endsWith("universe.")
+console.log(textEndsWith2)
